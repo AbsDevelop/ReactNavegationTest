@@ -1,19 +1,19 @@
-
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 
-export default function HomeScreen({navigation}){
+export default function SaoPaulo({navigation}){
   return (
     <View style={styles.container}>
-      <Text>Brasil</Text>
+      <Text>Cidades de São Paulo</Text>
 
       <TouchableOpacity
-        onPress={ () => navigation.navigate('SaoPaulo')}
+        onPress={ () => navigation.navigate('Peruibe')}
       >
           <Text>
-              São Paulo  
+              Peruíbe  
           </Text>
       </TouchableOpacity>
+
     </View>
   );
 }
